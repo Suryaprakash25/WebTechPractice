@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #ffe4c4;
+    height: 30vh;
+}
+header>h1{
+    color: #f8f32b;
+}
+main{
+    background-color: rgb(235, 235, 119);
+    height: 50vh;
+    
+}
+main>p{
+    font-size: 30px;
+    color: hsl(0, 100%, 50%);
+}
+footer{
+    background-color: aquamarine;
+    height: 20vh;
+}

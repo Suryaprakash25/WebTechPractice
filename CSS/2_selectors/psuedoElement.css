@@ -1,0 +1,39 @@
+/* ! 1. first-letter */
+.container>p::first-letter{
+    font-size: 30px;
+    color: #ff0101;
+}
+
+/* ! 2. first-line */
+.container>p::first-line{
+    background-color: blanchedalmond;
+}
+
+/* ! 3. selection */
+::selection{
+    background-color: rgb(84, 139, 139);
+    color: bisque;
+}
+
+/* ! 4. marker */
+.container2>ul>li::marker{
+    color:#ff0101;
+}
+
+.container2>ul>li:nth-child(2n)::marker{
+    color: greenyellow;
+}
+
+/* ! 5. before */
+
+.container2>h2::before{
+    content:"** ";
+    color:yellow;
+}
+
+/* ! 5. after */
+
+.container2>h2::after{
+    content:" ** ";
+    color:green;
+}

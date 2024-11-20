@@ -1,0 +1,43 @@
+header>h1{
+    color:red;
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ! text-transform ---> capitalize uppercase lowercase */
+/* ! text-align --->center right left justify */
+header>p{
+    text-align: justify;
+}
+
+main>h2{
+    color: rgb(48, 245, 4);
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-line: line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: dashed;
+}
+main>a{
+    text-decoration: none;
+}
+main>p{
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+main>h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(255, 98, 0);
+    text-shadow: -2px 3px 3px red;
+
+}
+
+
+footer{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+/* ! absolute units */
+/* ~ work with   px */
+.header{
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+}
+.header>.aside{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+
+/* ! relative units */
+/* ~ work with %*/
+
+.container{
+    background-color: brown;
+    height: 400px;
+    width: 500px;
+}
+.container>.box{
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+}

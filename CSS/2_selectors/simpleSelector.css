@@ -1,0 +1,51 @@
+/*! 1.  Universal Selector */
+
+/*
+ *{
+    color: red;
+} */
+/*! 2 tag name selector */
+
+/* h1{
+    color: aqua
+}
+p{
+    background-color:#fefefe;
+}
+button{
+    background-color: brown;
+    color: #ffffff;
+} */
+ /*
+  !12
+  ~121
+  &1232
+  ?12123
+  *123233
+  ^12322
+  todo 123123
+  
+ 
+ */
+/* !3 id selector */
+
+/* #p1{
+    color: #ff9203;
+}
+
+#p2{
+    color: red;
+} */
+
+/*! class name selector */
+
+/* .container{
+    color: #71ee0a;
+} */
+
+/*! group selector */
+
+h2,h3{
+    color: #e24545;
+}
+

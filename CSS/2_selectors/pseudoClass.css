@@ -1,0 +1,77 @@
+.container  > button{
+    background-color: aqua;
+    color: red;
+}
+
+/* ! 1. hover */
+
+.container  > button:hover{
+    background-color: black;
+    color:white;
+}
+
+.container > h1:hover{
+    color:rgb(202, 145, 74);
+}
+
+/* ! 2. active */
+
+.container>button:active{
+    background-color: brown;
+    color:grey;
+}
+
+/* ! 3. first-of-type  */
+
+.container2>h1:first-of-type{
+    color:blue;
+}
+
+/* ! 4. last-of-type  */
+
+.container2>h1:last-of-type{
+    color:navy;
+}
+
+/* ! 5. first-child */
+
+.container3 > p:first-child{
+    color:rosybrown;
+}
+/* & it will not select the pare because it is not the first child */
+.container3 > h1:first-child{
+    color:rosybrown;
+}
+/* & it will select the h1  because it is the first child */
+
+/* ! 6. last-child */
+
+.container3 > p:last-child{
+    color:rosybrown;
+}
+/* & it will not select the pare because it is not the last child */
+.container3 > button:last-child{
+    color:red;
+}
+/* & it will select the button  because it is the last child */
+
+/* !*************************************! */
+/* ! 7 nth-child */
+/* ~ it will select the even childer */
+.container4>ul>li:nth-child(2n){
+    color: greenyellow;
+}
+/* ~ it will select the odd childer */
+.container4>ul>li:nth-child(2n+1){
+    color: red;
+}
+/* ! 8. visited */
+
+.container4>a:visited{
+    color:#ff0000;
+}
+
+/* ! 9. link */
+.container4>a:link{
+    color:blue;
+}

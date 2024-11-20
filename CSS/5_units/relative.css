@@ -1,0 +1,11 @@
+.outer{
+    background-color: red;
+    width: 80vw;
+    height:100vh;
+}
+
+.inner{
+    background-color:goldenrod;
+    height: 50vh;
+
+}

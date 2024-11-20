@@ -1,0 +1,12 @@
+.container a[href]{
+    color: aqua;
+}
+a[target="_blank"]{
+    color:green;
+}
+input{
+    background-color: rgb(206, 165, 244);
+}
+input[type="text"]{
+    background-color: aquamarine;
+}

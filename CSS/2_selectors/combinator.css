@@ -1,0 +1,29 @@
+
+/* ! descendant selector */
+.container h1{
+    color: aqua;
+}
+
+.container3  p{
+    color: red;
+}
+
+/* ! direct child selector */
+
+.container3>h1{
+    background-color: aquamarine;
+}
+
+.container4 > #para1{
+    color: #009507;
+}
+
+/* ! adjacent sibling selector */
+/* .container4>#para1+p{
+    color: blue;
+} */
+
+/* ! general sibling selector */
+.container4>#para1~p{
+    color: #2f00ff;
+}
