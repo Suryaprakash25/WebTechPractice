@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.outer{
+    height:100vh;
+    background-color: #ff62b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outer > .inner{
+    background-color: #dabbd1;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 2px 2px 3px black;
+}
+.outer>.inner:hover{
+    box-shadow: -2px -2px 2px #000;
+}
+.form-group>label{
+    display: block;
+}
+.form-group>input{
+    display: block;
+    background-color: #f9aaea;
+    cursor: pointer;
+
+}
+
+header>h1{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+header>p{
+    font-size: 12px;
+    font-style: italic;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form-group{
+    /* margin: 10px 10px 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.form-group>input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+}
+.form-group>label{
+    font-weight: bold;
+}
+.form-group>button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #00f4fd;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-group>button:hover{
+    background-color: #07f870;
+    box-shadow: 2px 2px 5px #00e5ff;
+}
+
+footer>p{
+    display: inline-block;
+    font-size: 15px;
+    color: #666;
+}
+footer>a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration: none;
+}
+footer>a:hover{
+    color: #ff14d4;
+    text-shadow: 2px 2px 2px #000;
+}
